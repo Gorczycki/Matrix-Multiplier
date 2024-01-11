@@ -1,6 +1,6 @@
-* Project to convert a C++ file to a website
-  User enters in two square matrices of any size
-  User then enters elements of these matrices
+* Project to convert a C++ file to a website.
+  User enters in two square matrices of any size,
+  User then enters elements of these matrices,
   after entering, algorithm multiplies these two matrices and displays them.
 
 * I've used MAMP to create the localhost site for testing and modification,
