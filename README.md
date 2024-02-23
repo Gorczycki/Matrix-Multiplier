@@ -6,4 +6,4 @@
 * I've used MAMP to create the localhost site for testing and modification,
   and used Emscripten to generate the html, javascript, and webassembly files.
 
-* At this time I need to finish publishing website, and upgrading UI for users.
+
