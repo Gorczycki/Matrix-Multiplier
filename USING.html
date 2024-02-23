@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Calculator</title>
+</head>
+<body>
 
+    <h1>Matrix Calculator</h1>
+
+    <form id="matrixForm">
+        <label for="rowsizeA">Rows of Matrix A:</label>
+        <input type="number" id="rowsizeA" name="rowsizeA" required>
+
+        <label for="colsizeA">Columns of Matrix A:</label>
+        <input type="number" id="colsizeA" name="colsizeA" required>
+
+        <label for="rowsizeB">Rows of Matrix B:</label>
+        <input type="number" id="rowsizeB" name="rowsizeB" required>
+
+        <label for="colsizeB">Columns of Matrix B:</label>
+        <input type="number" id="colsizeB" name="colsizeB" required>
+
+        <button type="button" onclick="generateMatrixInputs()">Set Matrix Sizes</button>
+
+        <div id="matrixInputsA"></div>
+        <div id="matrixInputsB"></div>
+
+        <button type="button" onclick="collectAndMultiply()">Multiply Matrices</button>
+
+        <div id="result"></div>
+    </form>
+
+    <script src="matrixCalculator.js"></script>
+</body>
+</html>
